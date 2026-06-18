@@ -40,7 +40,7 @@ function Index() {
       <header className="border-b border-border bg-card">
         <div className="mx-auto flex max-w-3xl items-center gap-3 px-6 py-5">
           <img
-            src="/logo.png"
+            src={`${import.meta.env.BASE_URL}logo.png`}
             alt="Mi Caña"
             className="h-12 w-12 rounded-lg object-contain"
           />
