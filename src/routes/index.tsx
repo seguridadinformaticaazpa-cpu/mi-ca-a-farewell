@@ -39,9 +39,11 @@ function Index() {
       {/* Header */}
       <header className="border-b border-border bg-card">
         <div className="mx-auto flex max-w-3xl items-center gap-3 px-6 py-5">
-          <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary text-primary-foreground font-bold text-lg">
-            MC
-          </div>
+          <img
+            src="/logo.png"
+            alt="Mi Caña"
+            className="h-12 w-12 rounded-lg object-contain"
+          />
           <div>
             <h1 className="text-lg font-bold leading-tight text-foreground">
               Mi Caña
