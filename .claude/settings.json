@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(git remote set-url origin https://github.com/seguridadinformaticaazpa-cpu/mi-ca-a-farewell.git)",
+      "PowerShell(git push -u origin main)"
+    ]
+  }
+}
